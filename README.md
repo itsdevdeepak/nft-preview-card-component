@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [NFT Preview Card ↗](https://www.frontendmentor.io/solutions/nft-preview-card-component-html-css-4KZbCYeozW)
-- Live Site URL: [Link ↗](https://your-live-site-url.com)
+- Live Site URL: [Link ↗](https://itsdevdeepak.github.io/nft-preview-card-component/)
 
 
 ### Built with
@@ -41,6 +41,5 @@ Users should be able to:
 
 ### Author
 
-- Website - [Link ↗](https://itsdevdeepak.github.io/nft-preview-card-component/)
-- Frontend Mentor - [@itsdevdeepak ↗](https://www.frontendmentor.io/profile/itsdevdeepak)
 - Twitter - [@itsdevdeepak ↗](https://www.twitter.com/itsdevdeepak)
+- Frontend Mentor - [@itsdevdeepak ↗](https://www.frontendmentor.io/profile/itsdevdeepak)
