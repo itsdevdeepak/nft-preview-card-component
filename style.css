@@ -19,33 +19,32 @@
 body {
 	font-family: 'Outfit', sans-serif;
   font-weight: 300;
+  margin: 0;
+  padding: 0;
   background-color: var(--clr-neutral-darkest);
   color: var(--clr-neutral-light);
 }
 
-p {
-  margin: 0.7rem 0;
-}
+p { font-size: 1.2rem; margin: 0.7rem 0; }
 
 #card-container {
   display: flex;
   justify-content: center;
-  align-content: center;
-  margin: 5rem 0;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .card {
   background-color: var(--clr-neutral-dark);
   flex-basis: 80%;
   min-width: 250px;
-  max-width: 350px;
+  max-width: 340px;
   padding: 1.8rem;
   border-radius: 3%;
 }
 
-
 .card h1 {
-  font-size: 1.58rem;
+  font-size: 1.4rem;
   margin: 0.8em  0;
   font-weight: 600;
 }
@@ -57,9 +56,7 @@ p {
   position: relative;
 }
 
-.card-img img {
-  width: 100%;
-}
+.card-img img { width: 100%; }
 
 .card-img .hover-ico {
   opacity: 0;
@@ -73,26 +70,22 @@ p {
   align-items: center;
   position: absolute;
   background-color: var(--clr-primary-tranparent-light);
-
 }
+
 .card-img .hover-ico img{
   flex-basis: 20%;
   opacity: 1;
 }
-.card-img .hover-ico:hover {
-  opacity: 1;
-}
+
+.card-img .hover-ico:hover { opacity: 1; }
 
 .card p {
   color: var(--clr-primary);
   font-weight: 300;
-  font-size: 1.3rem;
   line-height: 1.4;
 }
 
-.card p.clr-pri-light {
-  color: var(--clr-primary-light);
-}
+.card p.clr-pri-light { color: var(--clr-primary-light); }
 
 .card .info {
   display: flex;
@@ -100,14 +93,10 @@ p {
   text-align: center;
 }
 
-
-.card .info img {
-  max-width: 19px;
-}
+.card .info img { max-width: 19px; }
 
 .card .info p {
   font-weight: 600;
-  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +108,6 @@ p {
   align-items: center;
   border-top: 2px solid var(--clr-neutral);
   padding-top: 1em;
-  font-weight: 300;
   font-style: normal;
   margin-top: 0.7rem;
 }
@@ -132,13 +120,14 @@ p {
 
 .card address p {
   margin-left: 0.8em;
-  font-size: 1.2rem;
 }
 
 .card address a {
   text-decoration: none;
   color: var(--clr-neutral-light);
 }
-.card address a:hover {
-  color: var(--clr-primary-light);
-}
+
+.card address a:hover { color: var(--clr-primary-light); }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: var(--clr-primary); text-decoration: none;}
